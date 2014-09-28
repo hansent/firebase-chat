@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+body {
+  padding: 2em;
+  font-family:  Helvetica, Arial, sans-serif;
+}
+
+
+.messages {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+
+.message-input {
+    width: 400px;
+}
+
+.username {
+    font-weight: 700;
+}
+
